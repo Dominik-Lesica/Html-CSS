@@ -1,0 +1,82 @@
+.tahoma-text{
+  font-family: tahoma;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.biggest-deals-text{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.sales-end-text{
+  font-family: arial;
+  color: red;
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 100px;
+}
+
+.c5{
+  font-family: verdana;
+  margin: 0px;
+}
+
+.course-title{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.course-subtitle{
+  color: rgb(153, 152, 152);
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.course-description{
+  width: 300px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.get-started-button{
+  margin-top: 20px;
+  background-color: rgb(53, 157, 53);
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 100px;
+  transition: box-shadow 0.2s;
+}
+.get-started-button:hover{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.d5{
+  font-family: arial;
+  margin: 0px;
+  text-align: center;
+}
+.apple-title{
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.apple-description{
+  margin-bottom: 15px;
+}
+
+.apple-learn-more{
+  color: rgb(74, 74, 254);
+}
+.apple-learn-more:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

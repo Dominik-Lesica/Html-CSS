@@ -1,0 +1,23 @@
+p,
+h1,
+h2{
+  margin: 0;
+}
+
+
+
+html,body{
+  font-family: arial;
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body{
+  padding-left: 402px;
+}
+
+
+
+

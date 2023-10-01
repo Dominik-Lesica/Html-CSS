@@ -1,0 +1,96 @@
+body{
+  font-family: arial;
+}
+
+.e5{
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.mac-new-text{
+  color: red;
+  font-size: 13px;
+}
+
+.mac-title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mac-description{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.mac-price{
+  color: gray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.buy-button{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 9px 20px;
+  background-color: rgb(95, 95, 255);
+  color: white;
+  border:none;
+  border-radius: 18px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+.buy-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.f5{
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.current-value{
+  margin-top: 200px;
+  font-size: 25px;
+}
+.usd{
+  font-size: 15px;
+  color: gray;
+}
+
+.value-increase{
+  color: green;
+  font-size: 15px;
+}
+
+.after-hours{
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 100px
+}
+.value-decrease{
+  color: red;
+}
+
+.g5{
+  margin: 0px;
+}
+
+.username{
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.mail-username{
+  font-weight: normal;
+  color: gray;
+}
+
+.ending{
+  margin-top: 20px;
+}
+.username-2{
+  color: rgb(57, 57, 247);
+}

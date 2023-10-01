@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .profile-image{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+        vertical-align: middle;
+      }
+
+      .tweet-input{
+        vertical-align: middle;
+        height: 27px;
+        width: 250px;
+        font-size: 15px;
+        border: none;
+        border-radius: 50px;
+        margin-left: 5px;
+      }
+
+      .tweet-button{
+        padding: 7px 20px;
+        margin-left: 5px;
+        background-color: rgb(95, 95, 255);
+        color: white;
+        border:none;
+        border-radius: 18px;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        vertical-align: middle;
+      }
+      .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+      }
+
+      .twitter-post{
+        display: inline-block;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+        padding: 10px 10px;
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="twitter-post">
+      <img class="profile-image"     src="drunk-cat.png">
+      <input placeholder="What's happening?" class="tweet-input">
+      <button class="tweet-button">Tweet</button>
+    </div>
+  </body>
+</html>

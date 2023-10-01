@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p{
+        font-family: arial;
+      }
+
+      .display{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 100px;
+        border-radius: 3px;
+        box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+      }
+
+      .item-row-flexbox{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex: 1;
+        cursor: pointer;
+        transition: background-color 0.1s;
+       }
+       .item-row-flexbox:hover{
+        background-color: rgb(230, 229, 229);
+       }
+
+       .text-div{
+        flex: 1;
+        height: 100%;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+       }
+       .number-div{
+        width: 50px;
+        height: 100%;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+       }
+       
+       .text{
+        margin: 0;
+       }
+       .number{
+        margin: 0;
+        background-color: rgb(67, 108, 234);
+        padding: 3px 10px;
+        border-radius: 15px;
+        font-size: 14px;
+        color: white;
+        display: inline-block;
+       }
+      
+    </style>
+  </head>
+  <body>
+    <div class="display">
+      <div class="item-row-flexbox">
+        <div class="text-div">
+          <p class="text">Home</p>
+        </div>
+        <div class="number-div">
+          <p class="number">14</p>
+        </div>
+      </div>
+
+      <div class="item-row-flexbox">
+        <div class="text-div">
+          <p class="text">Notifications</p>
+        </div>
+        <div class="number-div">
+          <p class="number">3</p>
+        </div>
+      </div>
+
+      <div class="item-row-flexbox">
+        <div class="text-div">
+          <p class="text">Messages</p>
+        </div>
+        <div class="number-div">
+          <p class="number">5</p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+p{
+  margin: 50px 20px;
+}
+
+button{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buttons1{
+  margin-right: 20px;
+}
+
+.request-now-button{
+  background-color: black;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 100px;
+}
+
+.add-to-cart-button{
+  background-color: rgb(247, 200, 59);
+  color: black;
+  border: none;
+  height: 30px;
+  width: 170px;
+  border-radius: 18px;
+}
+
+.sign-up-button{
+  background-color: rgb(53, 157, 53);
+  color: white;
+  border: none;
+  height: 32px;
+  width: 70px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.get-started-button{
+  background-color: rgb(197, 108, 209);
+  color: white;
+  border: none;
+  height: 32px;
+  width: 110px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.download-button{
+  background-color: white;
+  color: rgb(197, 108, 209);
+  height: 32px;
+  width: 100px;
+  border-color: rgb(197, 108, 209);
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: 7px;
+  border-width: 2px;
+  font-weight: bold;
+}
+
+.apply-button{
+  height: 36px;
+  width: 200px;
+  margin-left: 5px;
+  background-color: rgb(95, 95, 255);
+  color: white;
+  border:none;
+  border-radius: 18px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.save-button{
+  color: rgb(95, 95, 255);
+  background-color: white;
+  border-color: rgb(95, 95, 255);
+  border-style: solid;
+  height: 36px;
+  width: 80px;
+  border-radius: 18px;
+  border-width: 2px;
+  font-weight: bold;
+}
+

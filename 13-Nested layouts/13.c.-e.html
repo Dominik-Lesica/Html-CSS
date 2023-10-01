@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p{
+        font-family: arial;
+        margin: 0;
+      }
+
+      .profile{
+        width: 400px;
+        box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+      }
+
+      .profile-flexbox{
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        width: 100%;
+        cursor: pointer;
+      }
+      .profile-flexbox:hover{
+        background-color: rgb(241, 240, 240);
+       }
+
+      .profile-picture-div{
+        width: 70px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .description-div{
+        flex: 1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .follow-button-div{
+        width: 100px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      }
+
+      .profile-picture{
+        height: 70%;
+        width: 70%;
+        object-fit: cover;
+        border-radius: 70px;
+      }
+
+      .description-flexbox{
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        width: 95%;
+      }
+      .description-element-div{
+        flex: 1;
+      }
+
+      .name,
+      .subname{
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .name{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .popularity,
+      .time{
+        color: rgb(182, 182, 182);
+        font-size: 14px;
+        font-weight: normal;
+      }
+
+      .follow-button{
+        color: white;
+        background-color: rgb(95, 95, 255);
+        padding: 8px 10px;
+        border-radius: 2px;
+        cursor: pointer;
+        border: none;
+        margin-right: 10px;
+        transition: background-color 0.15s;
+      }
+      .follow-button:hover{
+        background-color: rgb(75, 75, 222);
+      }
+
+      .all-inboxes{
+        color: rgb(182, 182, 182);
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 12px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <p class="all-inboxes">All Inboxes</p>
+
+      <div class="profile-flexbox">
+        <div class="profile-picture-div">
+          <img src="drunk-cat.png" class="profile-picture">
+        </div>
+  
+        <div class="description-div">
+          <div class="description-flexbox">
+            <div class="description-element-div">
+              <p class="name">Chewy Promotions 
+                <span class="time">4:56 PM</span></p>
+            </div>
+            <div class="description-element-div">
+              <p class="subname">Biggest sales of the year</p>
+            </div>
+            <div class="description-element-div">
+              <p class="popularity">Hey there! We're writing to tell you about our...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-flexbox">
+        <div class="profile-picture-div">
+          <img src="Kitler.JPEG" class="profile-picture">
+        </div>
+  
+        <div class="description-div">
+          <div class="description-flexbox">
+            <div class="description-element-div">
+              <p class="name">Best Buy <span class="time">9:00 AM</span></p>
+            </div>
+            <div class="description-element-div">
+              <p class="subname">Your Best Buy eReceipt</p>
+            </div>
+            <div class="description-element-div">
+              <p class="popularity">thank you for shopping at Best Buy, here is...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-flexbox">
+        <div class="profile-picture-div">
+          <img src="kitten-in-a-blanket.JPEG" class="profile-picture">
+        </div>
+  
+        <div class="description-div">
+          <div class="description-flexbox">
+            <div class="description-element-div">
+              <p class="name">Netflix <span class="time">12:32 PM</span></p>
+            </div>
+            <div class="description-element-div">
+              <p class="subname">Here's what's coming soon to Netflix</p>
+            </div>
+            <div class="description-element-div">
+              <p class="popularity">Brand mew movies and shows, old favorites...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

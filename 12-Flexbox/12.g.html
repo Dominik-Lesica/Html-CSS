@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p{
+        font-family: arial;
+        margin: 0;
+      }
+
+      .profile{
+        width: 400px;
+        box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+      }
+
+      .profile-flexbox{
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        width: 100%;
+        cursor: pointer;
+      }
+      .profile-flexbox:hover{
+        background-color: rgb(241, 240, 240);
+       }
+
+      .profile-picture-div{
+        width: 70px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .description-div{
+        flex: 1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .follow-button-div{
+        width: 100px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      }
+
+      .profile-picture{
+        height: 70%;
+        width: 70%;
+        object-fit: cover;
+        border-radius: 70px;
+      }
+
+      .description-flexbox{
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+      }
+      .description-element-div{
+        flex: 1;
+      }
+
+      .name{
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .subname,
+      .popularity{
+        color: rgb(182, 182, 182);
+        font-size: 14px;
+      }
+
+      .follow-button{
+        color: white;
+        background-color: rgb(95, 95, 255);
+        padding: 8px 10px;
+        border-radius: 2px;
+        cursor: pointer;
+        border: none;
+        margin-right: 10px;
+        transition: background-color 0.15s;
+      }
+      .follow-button:hover{
+        background-color: rgb(75, 75, 222);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <div class="profile-flexbox">
+        <div class="profile-picture-div">
+          <img src="drunk-cat.png" class="profile-picture">
+        </div>
+  
+        <div class="description-div">
+          <div class="description-flexbox">
+            <div class="description-element-div">
+              <p class="name">PussyFucKr69</p>
+            </div>
+            <div class="description-element-div">
+              <p class="subname">Drunk cat</p>
+            </div>
+            <div class="description-element-div">
+              <p class="popularity">not popular</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="follow-button-div">
+          <button class="follow-button">Follow</button>
+        </div>
+      </div>
+
+      <div class="profile-flexbox">
+        <div class="profile-picture-div">
+          <img src="Kitler.JPEG" class="profile-picture">
+        </div>
+  
+        <div class="description-div">
+          <div class="description-flexbox">
+            <div class="description-element-div">
+              <p class="name">jonny</p>
+            </div>
+            <div class="description-element-div">
+              <p class="subname">World leader</p>
+            </div>
+            <div class="description-element-div">
+              <p class="popularity">popular</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="follow-button-div">
+          <button class="follow-button">Follow</button>
+        </div>
+      </div>
+
+      <div class="profile-flexbox">
+        <div class="profile-picture-div">
+          <img src="kitten-in-a-blanket.JPEG" class="profile-picture">
+        </div>
+  
+        <div class="description-div">
+          <div class="description-flexbox">
+            <div class="description-element-div">
+              <p class="name">smarty</p>
+            </div>
+            <div class="description-element-div">
+              <p class="subname">dead</p>
+            </div>
+            <div class="description-element-div">
+              <p class="popularity">not popular</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="follow-button-div">
+          <button class="follow-button">Follow</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

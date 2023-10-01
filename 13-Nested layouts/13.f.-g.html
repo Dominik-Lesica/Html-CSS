@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p{
+        margin: 0;
+        font-family: arial;
+      }
+
+      .item{
+        display: flex;
+        height: 90px;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow:0px 0px 2px rgba(0,0,0,0.3);
+        margin-left: 50px;
+      }
+
+      .item-text{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        row-gap: 5px;
+        margin-left: -10px;
+        background-color: white;
+      }
+
+      .item-link-div,
+      .item-title-div{
+        margin-left: 10px;
+      }
+
+      .item-thumbnail{
+        height: 100%;
+        width: 100px;
+        background-color:rgb(211, 211, 211);
+        border-radius: 10px;
+      }
+
+      .item-link{
+        color: rgb(97, 99, 104);
+        font-size: 15px;
+      }
+
+      .profile-picture{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+
+      .at-name{
+        color: rgb(97, 99, 104);
+      }
+
+      .top{
+        display: flex;
+        column-gap: 10px;
+      }
+
+      .top-right{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3px;
+        width: 100%;
+      }
+
+      .description{
+        line-height: 20px;
+      }
+
+      .tweet{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <div class="top">
+        <div class="profile-picture-div">
+          <img src="drunk-cat.png" class="profile-picture">
+        </div>
+        <div class="top-right">
+          <div class="username">
+            <p>
+              <strong>
+                supersimple.dev
+              </strong>
+              <span class="at-name">
+                @SuperSimpleDev
+              </span>
+            </p>
+          </div>
+          <div class="description">
+            <p>What is backend web development? A complete
+            overview. New video is up!</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-thumbnail"></div>
+  
+        <div class="item-text">
+          <div class="item-link-div">
+            <p class="item-link">youtube.com</p>
+          </div>
+          <div class="item-title-div">
+            <p class="item-title">Backend web development - a
+              complete overview (2021)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

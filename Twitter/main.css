@@ -1,0 +1,28 @@
+.main{
+  background-color: white;
+  width: 100%;
+  min-height: 100%;
+}
+
+.main-root{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  column-gap: 30px;
+  min-height: 100%;
+}
+
+.middle-section{
+  width: 600px;
+  border-right: 1px solid rgb(239, 243, 244);
+  min-height: 100%;
+  position: relative;
+}
+
+.right-section{
+  width: 360px;
+  height: 100%;
+}
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .x-button{
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px 13px;
+        border-radius: 40px;
+        position: absolute;
+        z-index: 2;
+        top: -10px;
+        left: -10px;
+        cursor: pointer;
+      }
+
+      .rectangle{
+        width: 320px;
+        height: 180px;
+        background-color: rgb(114, 114, 114);
+      }
+
+      .video{
+        position: relative;
+        left: 30px;
+        top: 30px;
+        display: inline-block;
+      }
+
+      .video-time{
+        z-index: 1;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        padding: 2px 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="video">
+      <button class="x-button">X</button>
+      <div class="rectangle"></div>
+      <div class="video-time">0:29</div>  
+    </div>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        height: 3000px;
+      }
+
+      p{
+        margin: 0;
+        font-family: arial;
+      }
+
+      .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background-color: white;
+      }
+
+      .left-section{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        margin-left: 40px;
+      }
+
+      .right-section{
+        margin-right: 40px;
+      }
+
+      .profile-picture{
+        height: 35px;
+        width: 35px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+      .name{
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .add-friend-button{
+        color: white;
+        background-color: rgb(95, 95, 255);
+        padding: 8px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+      }
+      .message-button{
+        color: black;
+        background-color: rgb(227, 230, 231);
+        padding: 8px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img src="drunk-cat.png" class="profile-picture">
+        <p class="name">Emory</p>
+      </div>
+      <div class="right-section">
+        <button class="add-friend-button">Add Friend</button>
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

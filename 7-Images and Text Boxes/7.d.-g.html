@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .search-bar-d{
+        font-size: 15px;
+        height: 35px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: rgb(192, 192, 192);
+        border-style: solid;
+      }
+
+      .search-bar-e{
+        height: 30px;
+        width: 400px;
+        font-size: 15px;
+        border:none;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+        border-radius: 200px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+      }
+
+      .email-title{
+        font-family: arial;
+        font-size: 15px;
+        color: gray;
+        margin-bottom: 5px;
+      }
+
+      .email-input{
+        height: 25px;
+        width: 300px;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: rgb(102, 102, 102);
+        font-size: 15px;
+        padding-left: 5px;
+      }
+
+      .email-privacy-text{
+        font-family: arial;
+        font-size: 15px;
+        color: gray;
+      }
+
+      .agree-button{
+        padding: 9px 20px;
+        margin-left: 5px;
+        background-color: rgb(95, 95, 255);
+        color: white;
+        border:none;
+        border-radius: 18px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        vertical-align: top;
+        width: 300px;
+        height: 35px;
+        margin-bottom: 50px;
+      }
+      .agree-button:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+      }
+      
+      .profile-image{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+        vertical-align: middle;
+      }
+
+      .tweet-input{
+        vertical-align: middle;
+        height: 27px;
+        width: 250px;
+        font-size: 15px;
+        border: none;
+        border-radius: 50px;
+        margin-left: 5px;
+      }
+
+      .tweet-button{
+        padding: 7px 20px;
+        margin-left: 5px;
+        background-color: rgb(95, 95, 255);
+        color: white;
+        border:none;
+        border-radius: 18px;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        vertical-align: middle;
+      }
+      .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+      }
+
+    </style>
+  </head>
+  <body>
+    <p><input placeholder="Search" class="search-bar-d"></p>
+
+    <p><input placeholder="Search Google or type a URL" class="search-bar-e"></p>
+
+    <p class="email-title">Email</p>
+    <input class="email-input">
+    <p class="email-privacy-text">By clicking Agree & Join, you agree to the Privacy Policy</p>
+    <button class="agree-button">Agree & Join</button>
+
+    <p class="twitter-post">
+      <img class="profile-image"     src="drunk-cat.png">
+      <input placeholder="What's happening?" class="tweet-input">
+      <button class="tweet-button">Tweet</button>
+    </p>
+    
+    
+  </body>
+</html>

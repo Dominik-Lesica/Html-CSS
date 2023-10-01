@@ -1,0 +1,27 @@
+.product-name{
+  margin: 20px 0px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.price{
+  color: green;
+  font-weight: bold;
+}
+
+button{
+  color: black;
+  border: none;
+  height: 30px;
+  width: 120px;
+  border-radius: 18px;
+}
+
+.add-to-cart-button{
+  background-color:rgb(247, 200, 59);
+  margin-right: 10px;
+}
+
+.buy-now-button{
+  background-color: orange;
+}
